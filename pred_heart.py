@@ -24,7 +24,7 @@ def main():
     st.set_page_config(page_title="Heart Failure Predictor", layout="wide")
 
     ## add image
-    image = Image.open('heart.png')
+    image = Image.open('heart.jpg')
     st.image(image, use_column_width=False)
     # set title and content
     st.title('Heart Failure Predictor using Artificial Neural Network')
